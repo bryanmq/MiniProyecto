@@ -4,7 +4,26 @@
     </div>
     <div class="card-body">
       <img class="card-img-top" src="{{ proyecto?.foto }}" alt="Card image cap">
-      <p class="card-text">{{proyecto?.detalle}}</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Año</th>
+            <th scope="col">Detalle</th>
+            <th scope="col">Institución</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">{{proyecto?.nombre}}</th>
+            <td>{{proyecto?.ano}}</td>
+            <td>{{proyecto?.detalle}}</td>
+            <td>{{proyecto?.institucion}}</td>
+            <td>{{proyecto?.estado ? 'Finalizado':'Sin terminar'}}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class="card-footer text-muted">
       By Marvel.

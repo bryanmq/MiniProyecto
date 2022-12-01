@@ -16,26 +16,29 @@ export let listaHeroes : Heroe[] = [
 export let listaProyectos : Proyecto[] = [
    {
       id: 1,
-      foto: "https://super-ficcion.com/wp-content/uploads/2022/08/creador-escudo-capitan-america-1-780x470.webp",
-      nombre: "Capitan America",
-      descripcion: '',
-      detalle: 'El Capitán América, cuyo nombre real es Steven "Steve" Grant Rogers, fue un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por los historietistas Joe Simon y Jack Kirby, el personaje apareció por primera vez en Captain America Comics #1 (marzo de 1941) de Timely Comics, predecesor de Marvel Comics. El Capitán América fue diseñado como un supersoldado patriota que luchaba frecuentemente contra las potencias del Eje en la Segunda Guerra Mundial, y fue el personaje más popular de Timely Comics durante el período de guerra. La popularidad de los superhéroes se desvaneció después de la guerra, y el cómic del Capitán América dejó de editarse en 1950, con un breve resurgimiento en 1953. Desde que Marvel Comics revivió al personaje en 1964, el Capitán América se ha mantenido en publicación.',
-      estado: true
+      foto: "https://www.ina.ac.cr/multimedia/SiteAssets/img/ina.png",
+      nombre: "Sistema de Investigación para INA",
+      institucion: 'Instituto Nacional de Aprendizaje',
+      detalle: 'Sistema para el INA en el lenguaje C# para la gestión de investigaciones.',
+      estado: true,
+      ano: 2020
    },
    {
       id: 2,
-      foto: "https://super-ficcion.com/wp-content/uploads/2022/05/spider-man-60-anos-780x470.webp",
-      nombre: "Spider Man",
-      descripcion: '',
-      detalle: 'Spider-Man, traducido en ocasiones como El Hombre Araña,11​12​ es un personaje creado por los estadounidenses Stan Lee y Steve Ditko,13​14​ e introducido en el cómic Amazing Fantasy n.° 15, publicado por Marvel Comics en agosto de 1962.15​ Se trata de un superhéroe que emplea sus habilidades sobrehumanas, reminiscentes de una araña, para combatir a otros supervillanos que persiguen fines siniestros.',
-      estado: false
+      foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Logo_del_Banco_Central_de_Costa_Rica.svg/1280px-Logo_del_Banco_Central_de_Costa_Rica.svg.png",
+      nombre: "Crédito Nueva Norma",
+      institucion: 'Banco Central de Costa Rica y SUGEF',
+      detalle: 'Configuración de validiaciones en SQL para nueva Normativa crédito 2024 para el BCCR y SUGEF',
+      estado: true,
+      ano: 2021
    },
    {
       id: 3,
-      foto: "https://super-ficcion.com/wp-content/uploads/2022/11/M%C2%B4baku-Black-Panther-780x470.webp",
-      nombre: "Black Panter",
-      descripcion: '',
-      detalle: "Black Panther (traducido en algunos países como Pantera Negra) es una película de superhéroes estadounidense de 2018 basada en el personaje de Marvel Comics Pantera Negra. Producida por Marvel Studios en colaboración con Fox Searchlight Pictures (sin ser acreditada para esta película) y distribuida por Walt Disney Studios, es la decimoctava película del Universo cinematográfico de Marvel (UCM). La película es dirigida por Ryan Coogler, que escribió el guion con Joe Robert Cole, y fue protagonizada por Chadwick Boseman como T'Challa / Black Panther, junto con Michael B. Jordan, Lupita Nyong'o, Danai Gurira, Martin Freeman, Daniel Kaluuya, Letitia Wright, Winston Duke, Angela Bassett, Forest Whitaker y Andy Serkis. En Black Panther, T'Challa es coronado rey de Wakanda tras la muerte de su padre, pero su soberanía es cuestionada por un adversario que planea abandonar las políticas aislacionistas del país e iniciar una revolución mundial.",
-      estado: false
+      foto: "https://www.cruxconsultores.com/images/draco_slider_logo-01.png",
+      nombre: "Draco",
+      institucion: 'Anónima - Privada',
+      detalle: "Fue un sistema desarrollado en el lenguaje de C# para gestionar Actas",
+      estado: true,
+      ano: 2021
    }
 ];
