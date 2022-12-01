@@ -1,0 +1,16 @@
+<div class="accordion" id="accordionPanelsStayOpenExample" *ngFor="let i of proyectos">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        {{i.nombre}}
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">{{i.detalle}}
+        <strong></strong>
+        <a href="/proyecto/{{i.id}}" class="btn btn-primary">View</a>
+      </div>
+    </div>
+  </div>
+
+</div>
